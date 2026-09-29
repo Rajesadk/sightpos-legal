@@ -1,1 +1,106 @@
-TERMS OF SERVICE FOR SIGHT POSLast Updated: September 28, 2026Welcome to Sight POS. Please read these Terms of Service ("Terms," "Agreement") carefully before using the Sight POS mobile application or associated web portal ("Service"), operated by an independent developer based in Thailand ("we," "us," or "our").By creating an account, downloading, or using Sight POS, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the Service.1. Eligibility & Account RegistrationAge Requirement: You must be at least 13 years of age to use Sight POS. If you are under 18, you represent that you have the consent of a parent or legal guardian to use the Service.Account Security: You are responsible for maintaining the confidentiality of your account credentials (including linked Google or Apple accounts) and for all activities that occur under your account. You must notify us immediately of any unauthorized access or security breach.2. In-App Credits & PaymentsNature of Credits: Sight POS utilizes an internal app credit system. App credits have no cash value, cannot be redeemed for fiat currency, and do not expire as long as your account remains active.Transferability: App credits are non-refundable. However, account holders may transfer remaining app credits to another registered Sight POS owner account upon request or via supported in-app functionality.Purchases & Refund Policy:All credit top-ups processed directly via our web portal are final and non-refundable.For purchases or top-ups made via In-App Purchases (Google Play Store or Apple App Store), refunds are strictly governed by the respective store's refund policies. If Google or Apple grants a refund or clawback on a transaction, we reserve the right to deduct the corresponding credit amount from your Sight POS balance or suspend access if a negative balance occurs.3. User Content & Prohibited UseMerchant Responsibility: Sight POS provides software tools for inventory management, transaction processing, and receipt generation. We do not active-screen, monitor, or verify the inventory, products, or services you list within the App.Lawful Use: You are solely responsible for ensuring that your store, listed items, and commercial activities comply with all applicable local and international laws in your operating jurisdiction. You agree not to use Sight POS for fraudulent, illegal, or unauthorized commercial activities.4. Data Ownership & Google Sheets SyncData Ownership: You retain 100% ownership of all store data, inventory lists, transaction history, and sales records created within your account.Google Drive Syncing: Sight POS provides integration with Google Sheets via the non-sensitive drive.file permission. Syncing occurs live upon user action/request and does not operate as an automated background sync. You are responsible for ensuring your Google account maintains sufficient storage and connection to receive export files.5. Service Availability & Warranty Disclaimer ("AS IS")"AS IS" Basis: Sight POS is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, whether express, implied, or statutory.Zero Warranty: To the maximum extent permitted by law, we disclaim all warranties, including but not limited to merchantability, fitness for a particular purpose, non-infringement, or uninterrupted server availability.No Guarantee of Uptime: We do not guarantee that the Service, database operations (Supabase/AWS), or hardware connections (Bluetooth printers, scanners) will be entirely uninterrupted, error-free, or compatible with all third-party devices.6. Limitation of LiabilityTo the fullest extent permitted by applicable law, in no event shall the developer of Sight POS, affiliates, or third-party service providers be liable for any indirect, incidental, special, consequential, or punitive damages—including but not limited to loss of profits, lost revenue, lost sales data, business interruption, or hardware failure—arising out of or in connection with your use or inability to use the Service.7. Account TerminationWe reserve the right to suspend or terminate your access to Sight POS at our sole discretion, without prior notice, if you breach these Terms, engage in fraudulent activity, or if required by applicable legal authorities. You may discontinue use of the Service or delete your account at any time via the in-app settings (Settings $\rightarrow$ Account $\rightarrow$ Delete Account).8. Governing Law & Dispute ResolutionGoverning Law: These Terms shall be governed by, construed, and enforced in accordance with the laws of Thailand, without regard to its conflict of law principles.Dispute Resolution: (Clarification on Point 7) This clause establishes that if a legal dispute arises between you and the developer, it will be handled under the court system and legal frameworks of Thailand, regardless of where your store is physically operating (such as Myanmar or Nepal).9. Changes to TermsWe reserve the right to modify or replace these Terms at any time. Updated versions will be published with a revised "Last Updated" date. Your continued use of Sight POS following any changes constitutes acceptance of the new Terms.10. Contact UsIf you have any questions or concerns regarding these Terms of Service, please contact us at:Contact Email: kanokwankimire0@gmail.comDeveloper Location: Thailand
+TERMS OF SERVICE FOR SIGHT POS
+
+Last Updated: September 29, 2026
+
+Welcome to Sight POS. Please read these Terms of Service ("Terms," "Agreement") carefully before using the Sight POS mobile application or associated web portal ("Service"), operated by an independent developer based in Thailand ("we," "us," or "our").
+
+By creating an account, downloading, or using Sight POS, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the Service.
+
+
+1. ELIGIBILITY & ACCOUNT REGISTRATION
+
+Age Requirement: You must be at least 13 years of age to use Sight POS. If you are under 18, you represent that you have the consent of a parent or legal guardian to use the Service.
+
+Owner Accounts: Owner accounts are created by signing in with Google or Apple. Owner accounts are asked to grant Google Drive access (drive.file scope) so that Sight POS can create and update spreadsheets for their shops.
+
+Shop Accounts: Owners can create shop accounts and approve the devices that sign in to them. Owners are responsible for the shop accounts and devices they approve.
+
+Account Security: You are responsible for maintaining the confidentiality of your account credentials (including linked Google or Apple accounts, shop login details, and login QR codes) and for all activities that occur under your account. You must notify us immediately of any unauthorized access or security breach.
+
+
+2. IN-APP CREDITS & PAYMENTS
+
+Nature of Credits: Sight POS uses an internal app credit system. App credits have no cash value, cannot be redeemed for money, and do not expire.
+
+Transferability: App credits are non-refundable. However, owners may transfer remaining app credits to another registered Sight POS owner account using the supported in-app functionality.
+
+Purchases & Refund Policy:
+- On iOS, credits are purchased through Apple In-App Purchase. On Android, credits are purchased through Google Play Billing.
+- Refunds for in-app purchases are governed by the refund policies of Apple or Google. If Apple or Google grants a refund or reverses a transaction, we may deduct the corresponding credits from your Sight POS balance, or suspend access if this results in a negative balance.
+- Credit top-ups made directly through our web portal are final and non-refundable.
+
+
+3. USER CONTENT & PROHIBITED USE
+
+Merchant Responsibility: Sight POS provides software tools for inventory management, transaction processing, and receipt generation. We do not actively screen, monitor, or verify the inventory, products, or services you list within the App.
+
+Lawful Use: You are solely responsible for ensuring that your store, listed items, and commercial activities comply with all applicable local and international laws in your operating jurisdiction. You agree not to use Sight POS for fraudulent, illegal, or unauthorized commercial activities.
+
+
+4. DATA OWNERSHIP, GOOGLE SHEETS & THIRD-PARTY SERVICES
+
+Data Ownership: You retain full ownership of all store data, inventory lists, transaction history, and sales records created within your account.
+
+Google Sheets: Sight POS creates and updates spreadsheets for your shops in your Google Drive using the non-sensitive drive.file permission, which only gives access to files created by or opened with the App. You are responsible for ensuring your Google account has enough storage and remains connected. If you revoke Google Drive access, features that rely on your spreadsheets may stop working until access is granted again.
+
+Social Connect (Optional): If you connect a Telegram or LINE group, shop notifications will be sent to that group. You are responsible for who has access to the groups you connect.
+
+
+5. SERVICE AVAILABILITY & WARRANTY DISCLAIMER ("AS IS")
+
+"AS IS" Basis: Sight POS is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, whether express, implied, or statutory.
+
+No Warranty: To the maximum extent permitted by law, we disclaim all warranties, including but not limited to merchantability, fitness for a particular purpose, non-infringement, or uninterrupted server availability.
+
+No Guarantee of Uptime: We do not guarantee that the Service, database operations (Supabase/AWS), or hardware connections (Bluetooth or network printers, scanners) will be uninterrupted, error-free, or compatible with all third-party devices.
+
+
+6. LIMITATION OF LIABILITY
+
+To the fullest extent permitted by applicable law, in no event shall the developer of Sight POS, its affiliates, or third-party service providers be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, lost revenue, lost sales data, business interruption, or hardware failure, arising out of or in connection with your use of or inability to use the Service.
+
+
+7. ACCOUNT TERMINATION & DELETION
+
+We reserve the right to suspend or terminate your access to Sight POS at our sole discretion, without prior notice, if you breach these Terms, engage in fraudulent activity, or if required by applicable legal authorities.
+
+You may stop using the Service at any time. You can delete your account in the App at any time by going to Account Settings -> Delete Account, or by emailing kanokwankimire0@gmail.com. On Android, owner accounts can do this by tapping the gear icon on the Home screen, then Account Settings -> Delete Account. Shop accounts are managed by the shop owner. Deletion is permanent and cannot be undone: any remaining app credits are forfeited, and the App removes all saved accounts and data from your device. Deletion is handled as described in our Privacy Policy.
+
+
+8. GOVERNING LAW & DISPUTE RESOLUTION
+
+Governing Law: These Terms shall be governed by, construed, and enforced in accordance with the laws of Thailand, without regard to its conflict of law principles.
+
+Dispute Resolution: Any legal dispute between you and the developer will be handled under the courts and legal framework of Thailand, regardless of where your store physically operates (such as Myanmar or Nepal).
+
+
+9. APPLE APP STORE USERS
+
+If you downloaded Sight POS from the Apple App Store, you also agree that:
+- These Terms are between you and the developer only, not Apple. The developer, not Apple, is solely responsible for Sight POS and its content.
+- Apple has no obligation to provide any maintenance or support for Sight POS.
+- Apple is not responsible for addressing any claims relating to Sight POS, including product liability claims, claims that the App fails to meet legal or regulatory requirements, or consumer protection claims.
+- Apple is not responsible for investigating, defending, or settling any claim that Sight POS infringes a third party's intellectual property rights.
+- Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you.
+- Your use of Sight POS must also comply with the Apple Media Services Terms and Conditions.
+
+
+10. GOOGLE PLAY USERS
+
+If you downloaded Sight POS from Google Play, you also agree that:
+- These Terms are between you and the developer only, not Google. The developer, not Google, is solely responsible for Sight POS and its content.
+- In-app credit purchases on Android are processed by Google Play Billing and are also subject to the Google Play Terms of Service and Google Play's refund policies.
+- Your use of Sight POS must also comply with the Google Play Terms of Service.
+
+
+11. CHANGES TO TERMS
+
+We reserve the right to modify or replace these Terms at any time. Updated versions will be published with a revised "Last Updated" date. Your continued use of Sight POS following any changes constitutes acceptance of the new Terms.
+
+
+12. CONTACT US
+
+If you have any questions or concerns regarding these Terms of Service, please contact us at:
+
+Contact Email: kanokwankimire0@gmail.com
+Developer Location: Thailand

@@ -1,1 +1,137 @@
-PRIVACY POLICY FOR SIGHT POSLast Updated: September 28, 2026This Privacy Policy describes how Sight POS ("we," "us," or "our"), operated by an independent developer based in Thailand, collects, uses, stores, and protects your information when you use our mobile application ("Sight POS" or the "App").By downloading, installing, or using Sight POS, you agree to the collection and use of information in accordance with this Privacy Policy.1. Information We CollectA. Authentication & Account InformationSign-In Data: When you sign in using Google Sign-In or Apple Sign-In, we collect basic profile details provided by these auth services to establish your account.Google Drive Integration: If you link your Google Account, we request access limited strictly to the drive.file scope (a non-sensitive scope). This allows Sight POS to create, edit, and access only the specific Google Sheets and files created by or explicitly opened with our App for report and export features.Security Tokens: OAuth authentication codes, refresh tokens, and access tokens are encrypted using industry-standard encryption protocols before being stored.B. App Activity & Operational DataPOS & Product Data: Inventory lists, sales logs, order histories, and customer receipts generated within the App.Credit Top-Up Data: Transaction records for topping up internal app credits via Stripe.C. Device Permissions & Usage DataSight POS requests specific hardware and system permissions only to deliver core point-of-sale functionality:Camera: Used strictly for scanning barcodes/QRs and scanning login credentials.Location & Nearby Devices (Bluetooth): Required to discover, pair with, and send print jobs to Bluetooth thermal receipt printers.Notifications: Used to deliver real-time system alerts, updates, and transaction event notifications.Photos & Videos: Used to allow you to upload image files (e.g., product images, logos) from your device gallery into the App.Music & Audio: Used to play feedback sounds (e.g., audio confirmation upon a successful barcode scan).2. How We Use Your InformationWe process your data exclusively for the following operational purposes:Providing, operating, and maintaining core POS features.Generating exportable Google Sheets directly in your Google Drive account upon your request.Processing in-app credit top-ups using Stripe.Pairing with local hardware (thermal printers, barcode scanners).Sending operational notifications regarding app events and status.We do not sell, rent, trade, or monetize your personal or business data under any circumstances.3. Financial Data & Payment ProcessingNo Cardholder Data Stored: Sight POS does not collect, store, or process customer credit card details or payment card numbers directly.In-App Credit Top-Up: We use Stripe exclusively to allow merchants to top up their internal Sight POS app credits. All payment details for credit top-ups are submitted directly to Stripe, governed by Stripe's Privacy Policy.4. Third-Party Service ProvidersTo support our backend infrastructure and deliver App functionality, we share necessary data with trusted third-party infrastructure providers:ProviderPurposePrimary Data Location / DetailsSupabasePrimary Database HostStored on secure cloud servers hosted in Japan. Stores encrypted account data, POS records, and configuration settings.AWS (Amazon Web Services)Backend Server HostingRuns application logic and API endpoints securely.Cloudflare R2Object StorageStores user-uploaded media files (such as product photos and store logos).Firebase (Google)Push NotificationsDelivers real-time system and event notifications to your mobile device.StripeApp Credit ProcessingHandles payments for topping up Sight POS internal app credits.All third-party service providers are bound by confidentiality agreements and security standards compliant with applicable data protection regulations.5. Regional Data Privacy ComplianceSight POS operates in Thailand, Myanmar, and Nepal. We comply with applicable regional privacy obligations:Thailand Personal Data Protection Act (PDPA): Thai users have explicit rights regarding data access, data portability, correction, and consent withdrawal.Data Subject Rights: Users in all supported regions hold the following rights:Right to Access: Request details on the data we hold about you.Right to Rectification: Update or correct inaccurate information in your account settings.Right to Deletion: Request total erasure of your personal and business data.6. Data Deletion & RetentionIn-App Deletion: You can delete your account and associated data directly within the mobile application at any time by navigating to:Settings $\rightarrow$ Account $\rightarrow$ Delete Account.Manual Deletion Request: You may also request complete data deletion by emailing us at kanokwankimire0@gmail.com. Upon verification of ownership, all personal records and linked cloud data stored on Supabase and Cloudflare R2 will be permanently deleted within 30 days.7. Data SecurityWe implement appropriate technical, administrative, and physical safeguards to protect your personal information, including:End-to-end transport encryption (HTTPS/TLS) for data in transit.Encryption at rest for OAuth tokens, authentication keys, and database records on Supabase and AWS.8. Changes to This Privacy PolicyWe may update our Privacy Policy periodically. Any changes will be posted on this page with an updated "Last Updated" date. You are advised to review this policy periodically for any changes.9. Contact InformationIf you have questions, concerns, or data protection inquiries regarding Sight POS, contact us directly at:Contact Email: kanokwankimire0@gmail.comDeveloper Location: Thailand
+PRIVACY POLICY FOR SIGHT POS
+
+Last Updated: September 29, 2026
+
+This Privacy Policy describes how Sight POS ("we," "us," or "our"), operated by an independent developer based in Thailand, collects, uses, stores, and protects your information when you use our mobile application ("Sight POS" or the "App").
+
+By downloading, installing, or using Sight POS, you agree to the collection and use of information in accordance with this Privacy Policy.
+
+
+1. INFORMATION WE COLLECT
+
+A. Authentication & Account Information
+
+Owner Sign-In: When you sign in with Google Sign-In or Sign in with Apple, we receive the basic profile details these services provide (your account identifier, name, and email address) to create and identify your account. If you choose Apple's "Hide My Email" option, we receive only the relay email address provided by Apple.
+
+Shop Account Sign-In: Shop devices sign in using an email address and Network ID, or by scanning a login QR code created by the shop owner.
+
+Google Drive Access: Owner accounts are asked to grant Google Drive access limited to the drive.file scope (a non-sensitive scope). Sight POS uses this access to create and update the spreadsheets for your shops. This scope only allows Sight POS to access files it created or that you explicitly opened with the App; it cannot see any other files in your Google Drive.
+
+Security Tokens: OAuth authorization codes, refresh tokens, and access tokens are encrypted before being stored.
+
+B. Device Information
+
+To manage which devices can access a shop and to deliver notifications, we collect:
+- A randomly generated device identifier created by the App on first use (it is not an advertising identifier and is not used for tracking).
+- Your device name and model.
+- A push notification token from Firebase Cloud Messaging.
+
+C. App Activity & Operational Data
+
+POS & Product Data: Inventory lists, product details and photos, sales logs, order histories, and customer receipts generated within the App.
+
+Payment Proof Photos: If you attach a photo to a sale as proof of payment (for example, a bank transfer slip), that photo is uploaded and stored with the sale record.
+
+Credit Purchase Data: Records of in-app credit purchases and credit transfers between owner accounts. We receive a purchase confirmation from Apple or Google; we never receive your card details.
+
+D. Device Permissions
+
+Sight POS requests hardware and system permissions only to deliver core point-of-sale features:
+
+- Camera: Used to scan barcodes and QR codes, scan login QR codes, and take photos (for example, product photos).
+- Photos: Used to let you choose images (such as product images, logos, and payment proof photos) from your photo library, and to save transfer receipts to your photo library when you ask the App to. On Android, images are chosen through the Android system photo picker, so the App only receives the images you select and does not browse your photo library. Transfer receipts you choose to save are stored in your device's Pictures folder.
+- Bluetooth / Nearby Devices (and Location on Android): Used to discover, connect to, and send print jobs to Bluetooth thermal receipt printers. On Android, location permission is requested because Android (on Android 11 and earlier) and our printer connection library require it for Bluetooth scanning. The App does not collect, store, or send your location.
+- Files & Storage (Android): Reports you download (such as stock check and refresh stock reports) are saved to your device's Downloads folder. On Android 9 and earlier, storage permission is requested for this; newer Android versions do not require it.
+- Local Network: Used to find and print to Wi-Fi/Ethernet receipt printers on your network.
+- Face ID / Touch ID / Fingerprint: Used to confirm sensitive actions such as credit transfers. Biometric checks are performed entirely by your device's operating system; we never receive or store any biometric data.
+- Notifications: Used to deliver real-time alerts, such as sales, device approval requests, and account events.
+- Audio: Used to play feedback sounds (for example, a confirmation sound after a successful barcode scan). This does not require access to your music or audio files.
+
+
+2. HOW WE USE YOUR INFORMATION
+
+We process your data only for the following purposes:
+- Providing, operating, and maintaining core POS features.
+- Creating and updating spreadsheets for your shops in your Google Drive.
+- Processing in-app credit purchases and credit transfers.
+- Managing and approving the devices that access your shops.
+- Connecting to local hardware (receipt printers and barcode scanners).
+- Sending notifications about app events and account status.
+- Sending shop notifications to Telegram or LINE groups, only if you set up Social Connect.
+
+We do not sell, rent, trade, or monetize your personal or business data under any circumstances. We do not use your data for advertising or track you across other companies' apps or websites.
+
+
+3. PAYMENTS & IN-APP CREDITS
+
+No Cardholder Data Stored: Sight POS does not collect, store, or process credit card or payment card numbers.
+
+In-App Purchases: On iOS, app credits are purchased through Apple In-App Purchase. On Android, app credits are purchased through Google Play Billing. Payments are handled entirely by Apple or Google under their own privacy policies. We only receive a confirmation of the purchase so that we can add credits to your account.
+
+
+4. THIRD-PARTY SERVICE PROVIDERS
+
+To run our backend and deliver App features, we share the necessary data with the following providers:
+
+- Supabase (Primary Database Host): Stored on secure cloud servers hosted in Japan. Stores encrypted account data, POS records, and configuration settings.
+- AWS (Amazon Web Services) (Backend Server Hosting): Runs application logic and API endpoints.
+- Cloudflare R2 (Object Storage): Stores user-uploaded media files, such as product photos and store logos.
+- Firebase Cloud Messaging (Google) (Push Notifications): Delivers notifications to your device.
+- Google Sign-In and Google Drive (Google): Owner sign-in and spreadsheet creation in your Google Drive.
+- Sign in with Apple (Apple): Owner sign-in.
+- Apple App Store and Google Play (Apple / Google): Processing of in-app credit purchases.
+- Google Fonts (Google): The App downloads its display font from Google's font servers. As with any web request, Google receives your device's IP address when the font is downloaded.
+- Telegram and LINE (Optional): If you enable Social Connect, shop notifications (such as sales summaries) are sent to the Telegram or LINE groups you choose. These messages are then subject to Telegram's or LINE's privacy policies.
+
+All third-party service providers are bound by confidentiality obligations and security standards compliant with applicable data protection regulations.
+
+
+5. REGIONAL DATA PRIVACY COMPLIANCE
+
+Sight POS operates in Thailand, Myanmar, and Nepal. We comply with applicable regional privacy obligations.
+
+Thailand Personal Data Protection Act (PDPA): Thai users have rights regarding data access, data portability, correction, and consent withdrawal.
+
+Data Subject Rights: Users in all supported regions have the following rights:
+- Right to Access: Request details on the data we hold about you.
+- Right to Rectification: Update or correct inaccurate information in your account.
+- Right to Deletion: Request complete erasure of your personal and business data.
+- Right to Withdraw Consent: Revoke Google Drive access at any time from your Google Account settings, disable notifications in your device settings, or disconnect Social Connect groups in the App.
+
+
+6. DATA DELETION & RETENTION
+
+In-App Deletion: You can delete your account and associated data directly within the App at any time by going to:
+Account Settings -> Delete Account
+On Android, owner accounts can do this by tapping the gear icon on the Home screen, then Account Settings -> Delete Account, confirming the warning, and sliding the confirmation button. Shop accounts are created and managed by the shop owner; to remove a shop account, contact the shop owner or email us.
+
+Manual Deletion Request: You may also request complete data deletion without using the App by emailing us at kanokwankimire0@gmail.com from the email address linked to your account, with the subject "Delete my Sight POS account".
+
+When your account is deleted, all personal records and linked cloud data stored on Supabase and Cloudflare R2 are permanently deleted within 30 days. When you delete your account in the App, the App also signs out and removes all saved accounts, login tokens, and cached data from your device. Spreadsheets already created in your own Google Drive belong to you and remain in your Google Drive unless you delete them. Google Play keeps its own records of your purchases under Google's privacy policy.
+
+
+7. DATA SECURITY
+
+We implement appropriate technical, administrative, and physical safeguards to protect your personal information, including:
+- Encryption in transit (HTTPS/TLS) for all data sent between the App and our servers.
+- Encryption at rest for OAuth tokens, authentication keys, and database records on Supabase and AWS.
+- Secure on-device storage (iOS Keychain / Android Keystore) for login credentials.
+- Encrypted on-device storage for data the App caches for faster loading.
+
+
+8. CHILDREN'S PRIVACY
+
+Sight POS is a business tool and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us and we will delete it.
+
+
+9. CHANGES TO THIS PRIVACY POLICY
+
+We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. You are advised to review this policy periodically for any changes.
+
+
+10. CONTACT INFORMATION
+
+If you have questions, concerns, or data protection inquiries regarding Sight POS, contact us at:
+
+Contact Email: kanokwankimire0@gmail.com
+Developer Location: Thailand

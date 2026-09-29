@@ -2,7 +2,7 @@ PRIVACY POLICY FOR SIGHT POS
 
 Last Updated: September 29, 2026
 
-This Privacy Policy describes how Sight POS ("we," "us," or "our"), operated by an independent developer based in Thailand, collects, uses, stores, and protects your information when you use our mobile application ("Sight POS" or the "App").
+This Privacy Policy describes how Sight POS ("we," "us," or "our"), operated by an independent developer based in Thailand, collects, uses, stores, and protects your information when you use our mobile application ("Sight POS" or the "App") on iOS and Android.
 
 By downloading, installing, or using Sight POS, you agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -22,9 +22,10 @@ Security Tokens: OAuth authorization codes, refresh tokens, and access tokens ar
 B. Device Information
 
 To manage which devices can access a shop and to deliver notifications, we collect:
-- A randomly generated device identifier created by the App on first use (it is not an advertising identifier and is not used for tracking).
-- Your device name and model.
-- A push notification token from Firebase Cloud Messaging.
+
+A randomly generated device identifier created by the App on first use. It is not an advertising identifier, it is not Apple's Identifier for Vendor (IDFV) or IDFA, and it is not used for tracking.
+Your device name and model.
+A push notification token from Firebase Cloud Messaging (which uses Apple Push Notification service on iOS).
 
 C. App Activity & Operational Data
 
@@ -38,26 +39,34 @@ D. Device Permissions
 
 Sight POS requests hardware and system permissions only to deliver core point-of-sale features:
 
-- Camera: Used to scan barcodes and QR codes, scan login QR codes, and take photos (for example, product photos).
-- Photos: Used to let you choose images (such as product images, logos, and payment proof photos) from your photo library, and to save transfer receipts to your photo library when you ask the App to. On Android, images are chosen through the Android system photo picker, so the App only receives the images you select and does not browse your photo library. Transfer receipts you choose to save are stored in your device's Pictures folder.
-- Bluetooth / Nearby Devices (and Location on Android): Used to discover, connect to, and send print jobs to Bluetooth thermal receipt printers. On Android, location permission is requested because Android (on Android 11 and earlier) and our printer connection library require it for Bluetooth scanning. The App does not collect, store, or send your location.
-- Files & Storage (Android): Reports you download (such as stock check and refresh stock reports) are saved to your device's Downloads folder. On Android 9 and earlier, storage permission is requested for this; newer Android versions do not require it.
-- Local Network: Used to find and print to Wi-Fi/Ethernet receipt printers on your network.
-- Face ID / Touch ID / Fingerprint: Used to confirm sensitive actions such as credit transfers. Biometric checks are performed entirely by your device's operating system; we never receive or store any biometric data.
-- Notifications: Used to deliver real-time alerts, such as sales, device approval requests, and account events.
-- Audio: Used to play feedback sounds (for example, a confirmation sound after a successful barcode scan). This does not require access to your music or audio files.
+Camera: Used to scan barcodes and QR codes, scan login QR codes, and take photos (for example, product photos and payment proof photos).
+
+Photos: Used to let you choose images (such as product images, logos, and payment proof photos) from your photo library, and to save transfer receipts when you ask the App to. On iOS, images are chosen through the iOS system photo picker, and on Android through the Android system photo picker, so on both platforms the App only receives the images you select and does not browse your photo library. On iOS, transfer receipts you choose to save are added to a "Sight POS" album in your Photos app; the App only asks for permission to add photos, not to read them. On Android, transfer receipts you choose to save are stored in your device's Pictures folder.
+
+Bluetooth / Nearby Devices: Used to discover, connect to, and send print jobs to Bluetooth thermal receipt printers. On iOS, only Bluetooth permission is requested; location permission is not requested. On Android, location permission is also requested because Android (on Android 11 and earlier) and our printer connection library require it for Bluetooth scanning. The App does not collect, store, or send your location on any platform.
+
+Files & Storage: Reports you download (such as stock check and refresh stock reports) are saved on your device. On iOS, they are saved in the App's own Downloads folder, which you can see in the Files app under On My iPhone -> Sight POS -> Downloads; no permission is required. On Android, they are saved to your device's Downloads folder; on Android 9 and earlier, storage permission is requested for this, and newer Android versions do not require it.
+
+Local Network: Used to find and print to Wi-Fi/Ethernet receipt printers on your network.
+
+Face ID / Touch ID / Fingerprint: Used to confirm sensitive actions such as credit transfers. Biometric checks are performed entirely by your device's operating system; we never receive or store any biometric data.
+
+Notifications: Used to deliver real-time alerts, such as sales, device approval requests, and account events. On iOS, the App only asks for notification permission when you choose to turn notifications on.
+
+Audio: Used to play feedback sounds (for example, a confirmation sound after a successful barcode scan). This does not require access to your music or audio files.
 
 
 2. HOW WE USE YOUR INFORMATION
 
 We process your data only for the following purposes:
-- Providing, operating, and maintaining core POS features.
-- Creating and updating spreadsheets for your shops in your Google Drive.
-- Processing in-app credit purchases and credit transfers.
-- Managing and approving the devices that access your shops.
-- Connecting to local hardware (receipt printers and barcode scanners).
-- Sending notifications about app events and account status.
-- Sending shop notifications to Telegram or LINE groups, only if you set up Social Connect.
+
+Providing, operating, and maintaining core POS features.
+Creating and updating spreadsheets for your shops in your Google Drive.
+Processing in-app credit purchases and credit transfers.
+Managing and approving the devices that access your shops.
+Connecting to local hardware (receipt printers and barcode scanners).
+Sending notifications about app events and account status.
+Sending shop notifications to Telegram or LINE groups, only if you set up Social Connect.
 
 We do not sell, rent, trade, or monetize your personal or business data under any circumstances. We do not use your data for advertising or track you across other companies' apps or websites.
 
@@ -73,15 +82,15 @@ In-App Purchases: On iOS, app credits are purchased through Apple In-App Purchas
 
 To run our backend and deliver App features, we share the necessary data with the following providers:
 
-- Supabase (Primary Database Host): Stored on secure cloud servers hosted in Japan. Stores encrypted account data, POS records, and configuration settings.
-- AWS (Amazon Web Services) (Backend Server Hosting): Runs application logic and API endpoints.
-- Cloudflare R2 (Object Storage): Stores user-uploaded media files, such as product photos and store logos.
-- Firebase Cloud Messaging (Google) (Push Notifications): Delivers notifications to your device.
-- Google Sign-In and Google Drive (Google): Owner sign-in and spreadsheet creation in your Google Drive.
-- Sign in with Apple (Apple): Owner sign-in.
-- Apple App Store and Google Play (Apple / Google): Processing of in-app credit purchases.
-- Google Fonts (Google): The App downloads its display font from Google's font servers. As with any web request, Google receives your device's IP address when the font is downloaded.
-- Telegram and LINE (Optional): If you enable Social Connect, shop notifications (such as sales summaries) are sent to the Telegram or LINE groups you choose. These messages are then subject to Telegram's or LINE's privacy policies.
+Supabase (Primary Database Host): Stored on secure cloud servers hosted in Japan. Stores encrypted account data, POS records, and configuration settings.
+AWS (Amazon Web Services) (Backend Server Hosting): Runs application logic and API endpoints.
+Cloudflare R2 (Object Storage): Stores user-uploaded media files, such as product photos, store logos, and payment proof photos.
+Firebase Cloud Messaging (Google) (Push Notifications): Delivers notifications to your device. On iOS, notifications are delivered through Apple Push Notification service.
+Google Sign-In and Google Drive (Google): Owner sign-in and spreadsheet creation in your Google Drive.
+Sign in with Apple (Apple): Owner sign-in.
+Apple App Store and Google Play (Apple / Google): Processing of in-app credit purchases.
+Google Fonts (Google): The App downloads its display font from Google's font servers. As with any web request, Google receives your device's IP address when the font is downloaded.
+Telegram and LINE (Optional): If you enable Social Connect, shop notifications (such as sales summaries) are sent to the Telegram or LINE groups you choose. These messages are then subject to Telegram's or LINE's privacy policies.
 
 All third-party service providers are bound by confidentiality obligations and security standards compliant with applicable data protection regulations.
 
@@ -93,30 +102,33 @@ Sight POS operates in Thailand, Myanmar, and Nepal. We comply with applicable re
 Thailand Personal Data Protection Act (PDPA): Thai users have rights regarding data access, data portability, correction, and consent withdrawal.
 
 Data Subject Rights: Users in all supported regions have the following rights:
-- Right to Access: Request details on the data we hold about you.
-- Right to Rectification: Update or correct inaccurate information in your account.
-- Right to Deletion: Request complete erasure of your personal and business data.
-- Right to Withdraw Consent: Revoke Google Drive access at any time from your Google Account settings, disable notifications in your device settings, or disconnect Social Connect groups in the App.
+
+Right to Access: Request details on the data we hold about you.
+Right to Rectification: Update or correct inaccurate information in your account.
+Right to Deletion: Request complete erasure of your personal and business data.
+Right to Withdraw Consent: Revoke Google Drive access at any time from your Google Account settings, stop using Sign in with Apple for Sight POS from your Apple ID settings, disable notifications in your device settings, or disconnect Social Connect groups in the App.
 
 
 6. DATA DELETION & RETENTION
 
 In-App Deletion: You can delete your account and associated data directly within the App at any time by going to:
 Account Settings -> Delete Account
-On Android, owner accounts can do this by tapping the gear icon on the Home screen, then Account Settings -> Delete Account, confirming the warning, and sliding the confirmation button. Shop accounts are created and managed by the shop owner; to remove a shop account, contact the shop owner or email us.
+
+On both iOS and Android, owner accounts can do this by tapping the gear icon on the Home screen, then Account Settings -> Delete Account, confirming the warning, and sliding the confirmation button. Shop accounts are created and managed by the shop owner; to remove a shop account, contact the shop owner or email us.
 
 Manual Deletion Request: You may also request complete data deletion without using the App by emailing us at kanokwankimire0@gmail.com from the email address linked to your account, with the subject "Delete my Sight POS account".
 
-When your account is deleted, all personal records and linked cloud data stored on Supabase and Cloudflare R2 are permanently deleted within 30 days. When you delete your account in the App, the App also signs out and removes all saved accounts, login tokens, and cached data from your device. Spreadsheets already created in your own Google Drive belong to you and remain in your Google Drive unless you delete them. Google Play keeps its own records of your purchases under Google's privacy policy.
+When your account is deleted, all personal records and linked cloud data stored on Supabase and Cloudflare R2 are permanently deleted within 30 days. When you delete your account in the App, the App also signs out and removes all saved accounts, login tokens, and cached data from your device. Spreadsheets already created in your own Google Drive belong to you and remain in your Google Drive unless you delete them. Apple and Google Play keep their own records of your purchases under their own privacy policies.
 
 
 7. DATA SECURITY
 
 We implement appropriate technical, administrative, and physical safeguards to protect your personal information, including:
-- Encryption in transit (HTTPS/TLS) for all data sent between the App and our servers.
-- Encryption at rest for OAuth tokens, authentication keys, and database records on Supabase and AWS.
-- Secure on-device storage (iOS Keychain / Android Keystore) for login credentials.
-- Encrypted on-device storage for data the App caches for faster loading.
+
+Encryption in transit (HTTPS/TLS) for all data sent between the App and our servers.
+Encryption at rest for OAuth tokens, authentication keys, and database records on Supabase and AWS.
+Secure on-device storage (iOS Keychain / Android Keystore) for login credentials.
+Encrypted on-device storage for data the App caches for faster loading.
 
 
 8. CHILDREN'S PRIVACY

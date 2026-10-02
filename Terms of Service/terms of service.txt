@@ -9,7 +9,7 @@ By creating an account, downloading, or using Sight POS, you agree to be bound b
 
 1. ELIGIBILITY & ACCOUNT REGISTRATION
 
-Age Requirement: You must be at least 13 years of age to use Sight POS. If you are under 18, you represent that you have the consent of a parent or legal guardian to use the Service.
+Age Requirement: Sight POS is a business tool intended for business use. You must be 18 years of age or older to create an account or use Sight POS.
 
 Owner Accounts: Owner accounts are created by signing in with Google or Apple. Owner accounts are asked to grant Google Drive access (drive.file scope) so that Sight POS can create and update spreadsheets for their shops.
 

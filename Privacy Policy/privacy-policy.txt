@@ -133,7 +133,7 @@ Encrypted on-device storage for data the App caches for faster loading.
 
 8. CHILDREN'S PRIVACY
 
-Sight POS is a business tool and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us and we will delete it.
+Sight POS is a business tool intended for users aged 18 or older and is not directed at children. We do not knowingly collect personal information from anyone under 18. If you believe a minor has provided us with personal information, contact us and we will delete it.
 
 
 9. CHANGES TO THIS PRIVACY POLICY
